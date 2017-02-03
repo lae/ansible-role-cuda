@@ -15,7 +15,7 @@
         file:
           path: /etc/avahi
           state: directory
-          mode: 1755
+          mode: 1777
       - name: Install avahi-daemon early on Ubuntu 16 containers
         package:
           name: avahi-daemon
